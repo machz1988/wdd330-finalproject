@@ -1,7 +1,8 @@
-const url = import.meta.env.VITE_API_QUERY_URL;
+const url = import.meta.env.VITE_SEARCH_URL;
 const spotifyKey = import.meta.env.VITE_RAPIDAPI_KEY;
 const host = import.meta.env.VITE_RAPIDAPI_HOST;
 
+/*
 const options = {
 	method: 'GET',
 	headers: {
@@ -17,3 +18,4 @@ try {
 } catch (error) {
 	console.error(error);
 }
+*/
