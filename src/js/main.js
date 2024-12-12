@@ -1,6 +1,6 @@
-import { getLocalStorage,setLocalStorage } from "./utils.mjs";
+import { getLocalStorage } from "./utils.mjs";
 
-const data = getLocalStorage('temporal-data');
+const data = getLocalStorage("temporal-data");
 console.log(data.tracks);
 /*
 // Song
