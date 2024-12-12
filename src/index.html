@@ -20,53 +20,28 @@
       </div>
     </header>
     <main class="divider">
-      <section class="products">
-        <h2>Top Products</h2>
-        <ul class="product-list">
-          <li class="product-card">
-            <a href="product_pages/marmot-ajax-3.html">
-            <img
-              src="images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg"
-              alt="Marmot Ajax tent"
-            />
-            <h3 class="card__brand">Marmot</h3>
-            <h2 class="card__name">Ajax Tent - 3-Person, 3-Season</h2>
-            <p class="product-card__price">$199.99</p></a>
-          </li>
-          <li class="product-card">
-            <a href="product_pages/northface-talus-4.html">
-            <img
-              src="images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg"
-              alt="Talus Tent - 4-Person, 3-Season"
-            />
-            <h3 class="card__brand">The North Face</h3>
-            <h2 class="card__name">Talus Tent - 4-Person, 3-Season</h2>
-            <p class="product-card__price">$199.99</p></a>
-            </li>
-          </li>
-          <li class="product-card">
-            <a href="product_pages/northface-alpine-3.html">
-            <img
-              src="images/tents/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg"
-              alt="Alpine Guide Tent - 3-Person, 4-Season"
-            />
-            <h3 class="card__brand">The North Face</h3>
-            <h2 class="card__name">
-              Alpine Guide Tent - 3-Person, 4-Season
-            </h2>
-            <p class="product-card__price">$349.99</p></a>
-          </li>
-          <li class="product-card">
-            <a href="product_pages/cedar-ridge-rimrock-2.html">
-            <img
-              src="images/tents/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg"
-              alt="Rimrock Tent - 2-Person, 3-Season"
-            />
-            <h3 class="card__brand">Cedar Ridge</h3>
-            <h2 class="card__name">
-              Rimrock Tent - 2-Person, 3-Season
-            </h2>
-            <p class="product-card__price">$69.99</p></a>
+      <form id="search-form" class="search-box">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for a song..."
+        />
+        <button type="submit">Search</button>
+      </form>
+      <section class="songs">
+        <h2>Results</h2>
+        <ul class="song-list">
+          <li class="song-card">
+            <!--<a href="product_pages/marmot-ajax-3.html">-->
+            <h2 class="card__name">Clocks</h2>            
+            <h3 class="card__streamcount">Stream Count: 1038609209</h3>
+            <h3 class="card__duration">Duration: 307879</h3>
+            <h3 class="card__tracknumber">Track Number: 5</h3>
+            <h3 class="card__albumname">Album: A Rush of Blood to the Head</h3>
+            <h3 class="card__releasedate">Album Release Date: 2002-08-27</h3>
+            <h3 class="card__artists">Artists:</h3>
+            <ul class="card__artists"><li>Coldplay</li></ul>
+            <!--</a>-->
           </li>
         </ul>
       </section>
