@@ -1,6 +1,3 @@
-const url = import.meta.env.VITE_SEARCH_URL;
-const spotifyKey = import.meta.env.VITE_RAPIDAPI_KEY;
-const host = import.meta.env.VITE_RAPIDAPI_HOST;
 import { getLocalStorage,setLocalStorage } from "./utils.mjs";
 
 const data = getLocalStorage('temporal-data');
