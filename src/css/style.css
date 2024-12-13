@@ -119,41 +119,47 @@ button {
   max-width: 600px;
   margin: auto;
 }
-.products {
+.songs {
   padding: 0.5em;
 }
-.product-list {
+.song-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
 }
-.product-list a {
+.song-list a {
   text-decoration: none;
   color: var(--dark-grey);
 }
 /* Styles for product lists */
-.product-card {
+.song-card {
   flex: 1 1 45%;
   margin: 0.25em;
   padding: 0.5em;
   border: 1px solid var(--light-grey);
   max-width: 250px;
 }
-.product-card h2,
-.product-card h3,
-.product-card p {
+.song-card h2,
+.song-card h3,
+.song-card ul {
   margin: 0.5em 0;
-}
-
-.card__brand {
-  font-size: var(--small-font);
 }
 
 .card__name {
   font-size: 1em;
 }
+
+.card__streamcount,
+.card__duration,
+.card__tracknumber,
+.card__albumname,
+.card__releasedate,
+.card__artists {
+  font-size: var(--small-font);
+}
+
 /* End product list card */
 
 .product-detail {
