@@ -22,9 +22,9 @@ export default class ExternalServices {
         }
     };
     try {
-        const response = await fetch(searchUrl + query, options);
+        const res = await fetch(searchUrl + query, options);
         const data = await convertToJson(res);
-        return data.Result;
+        return data;
     } catch (error) {
         console.error(error);
     }
@@ -40,9 +40,9 @@ export default class ExternalServices {
     };
     
     try {
-        const response = await fetch(getTrackUrl + id, options);
+        const res = await fetch(getTrackUrl + id, options);
         const data = await convertToJson(res);
-        return data.Result;
+        return data;
     } catch (error) {
         console.error(error);
     }
