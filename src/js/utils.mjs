@@ -5,6 +5,10 @@ export function qs(selector, parent = document) {
 // or a more concise version if you are into that sort of thing:
 // export const qs = (selector, parent = document) => parent.querySelector(selector);
 
+export function qsAll(selector, parent = document) {
+  return parent.querySelectorAll(selector);
+}
+
 // retrieve data from localstorage
 export function getLocalStorage(key) {
   return JSON.parse(localStorage.getItem(key));

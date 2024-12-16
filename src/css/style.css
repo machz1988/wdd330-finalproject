@@ -96,21 +96,33 @@ button {
 }
 /* End utility classes */
 
-/* Cart icon styles */
-.cart {
+/* Favorite List icon styles */
+.favorite-list {
   padding-top: 1em;
   position: relative;
   text-align: center;
 }
 
-.cart svg {
+.favorite-list svg {
   width: 25px;
 }
-.cart:hover svg {
+.favorite-list:hover svg {
   fill: gray;
 }
 
-/* End cart icon styles */
+.favorites-animation {
+  animation: favorites-animation 1s ease;
+}
+
+@keyframes favorites-animation {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* End Favorite List icon styles */
 
 .mission {
   padding: 0 0.5em;
