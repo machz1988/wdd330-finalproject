@@ -1,8 +1,8 @@
-# sleepoutside
+# Song Searcher Project
 
 ## Description
 
-Use this as a starting point to complete the WDD 330 team activity: the SleepOutside web application. It scaffolds out a simple web app with Vite support to bundle up our assets.
+This application is for searching a song and retrieve its information using Spotify Statistics and Stream Count API. It scaffolds out a simple web app with Vite support to bundle up our assets.
 
 ## Prerequisites
 
