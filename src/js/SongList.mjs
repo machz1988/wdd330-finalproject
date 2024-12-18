@@ -8,7 +8,7 @@ function songCardTemplate(song) {
     });
     const templateLiteral =`
         <li class="song-card">
-            <a href="../album_pages/?song=${song.album.id}">
+            <a href="../album_pages/?album=${song.album.id}">
                 <h2 class="card__name">${song.name}</h2>
                 <h3 class="card__streamcount">Stream Count: ${song.streamCount}</h3>
                 <h3 class="card__duration">Duration: ${song.duration}</h3>

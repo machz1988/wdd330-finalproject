@@ -1,137 +1,216 @@
 {
-    "query":"clocks",
-    "topResults":[
-        {"type":"track",
-        "id":"0BCPKOYdS2jbQ8iyB56Zns",
-        "name":"Clocks"},
-        {"type":"track",
-        "id":"2Ygs64z9ywJGakuKU8tr6o",
-        "name":"Clocks"},
-        {"type":"track",
-        "id":"2fXwCWkh6YG5zU1IyvQrbs",
-        "name":"Broken Clocks"},
-        {"type":"artist",
-        "id":"4gzpq5DPGxSnKTe4SA8HAU",
-        "name":"Coldplay"},
-        {"type":"playlist",
-        "id":"5mJH8neZYWznKYAXSgCJou",
-        "name":"Songs like Clocks"}],
-    "artists":[
-        {"id":"4gzpq5DPGxSnKTe4SA8HAU",
-        "name":"Coldplay"},
-        {"id":"7lRJ2rMkCq6TBl85frZAmf",
-        "name":"Clocks & Clouds"},
-        {"id":"4CHiVarfTsFhkFOk5vHS77",
-        "name":"Marc Scibilia"},
-        {"id":"4NSzuIc0eGOftqr0tEOhJk",
-        "name":"ClockClock"},
-        {"id":"2DaxqgrOhkeH0fpeiQq2f4",
-        "name":"Oasis"},
-        {"id":"3LLyROFg3quU6jDUPQEMkB",
-        "name":"Clocks"},
-        {"id":"50NkUdzTHP7CXZRe6n74vN",
-        "name":"Turning Back The Clocks"},
-        {"id":"6zlR5ttMfMNmwf2lecU9Cc",
-        "name":"Sam Fender"},
-        {"id":"2smETssbGNHJxOglxIFXTy",
-        "name":"CLOCKS"},
-        {"id":"6Jg3DFzPWX2VIy01oqLGkz",
-        "name":"The Clockworks"}],
-    "albums":[
-        {"id":"1hnFNY7vQA0VipdplCdhPJ",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2003"},
-        {"id":"0YERsGGS6X66rj6UWwvt2K",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2024"},
-        {"id":"4Ab6AbH0LZfoAvxriIYVsF",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2003"},
-        {"id":"5UsNWaI9pr6pX0PeI39sAH",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2024"},
-        {"id":"6ZG5lRT77aJ3btmArcykra",
-        "name":"Parachutes",
-        "type":"album",
-        "releaseDate":"2000"},
-        {"id":"2T9UHc2fOh1qT6hGTz6FrU",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2023"},
-        {"id":"5Fjjc5WlSbOG2CexhI8Lh5",
-        "name":"The Clock's Secret",
-        "type":"album","releaseDate":"2024"},
-        {"id":"174yu4qXSvcrJlmYPI5Ds8",
-        "name":"Clocks (Ambient)",
-        "type":"single","releaseDate":"2023"},
-        {"id":"6Z5qampvku5E0MKX3cuGAC",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2023"},
-        {"id":"1jN9En1vMRpb5uTO5ma4Mc",
-        "name":"Clocks",
-        "type":"single",
-        "releaseDate":"2003"}],
-    "tracks":[
-        {"id":"0BCPKOYdS2jbQ8iyB56Zns",
-        "name":"Clocks",
-        "streamCount":0,
-        "duration":307879,
-        "contentRating":"none"},
-        {"id":"2Ygs64z9ywJGakuKU8tr6o",
-        "name":"Clocks",
-        "streamCount":0,
-        "duration":307879,
-        "contentRating":"none"},
-        {"id":"2fXwCWkh6YG5zU1IyvQrbs",
-        "name":"Broken Clocks",
-        "streamCount":0,
-        "duration":231253,
-        "contentRating":"explicit"},
-        {"id":"75JFxkI2RXiU7L9VXzMkle",
-        "name":"The Scientist",
-        "streamCount":0,
-        "duration":309600,
-        "contentRating":"none"},
-        {"id":"7nqeKUkuQb3pIiNUas2FEV",
-        "name":"Clocks",
-        "streamCount":0,
-        "duration":230400,
-        "contentRating":"none"},
-        {"id":"74eOGQcLbrS7dDrn88Ctkl",
-        "name":"Clocks",
-        "streamCount":0,
-        "duration":308013,
-        "contentRating":"none"},
-        {"id":"2bVMZxVFHsK2DvYNQQzosE",
-        "name":"Clocks",
-        "streamCount":0,
-        "duration":164883,
-        "contentRating":"none"},
-        {"id":"3VSJgJ39ruE6LtV7o1s9wJ",
-        "name":"Clocks - Ambient",
-        "streamCount":0,
-        "duration":88572,
-        "contentRating":"none"},
-        {"id":"4zOfy9kqJlG0ZXvcaSh4gv",
-        "name":"Viva La Vida",
-        "streamCount":0,
-        "duration":242373,
-        "contentRating":"none"},
-        {"id":"53yNzLIyBjGt7DCZLKi8Ay",
-        "name":"Clocks - Radio Edit",
-        "streamCount":0,
-        "duration":252600,
-        "contentRating":"none"}],
-    "playlists":[
-        {"id":"5mJH8neZYWznKYAXSgCJou",
-        "name":"Songs like Clocks",
-        "description":""},
-        {"id":"37i9dQZF1E8P4hPkT1lIEV",
-        "name":"Clocks Radio",
-        "description":"With Coldplay, Keane, Maroon 5 and more"},
-        {"id":"37i9dQZF1EIWI4rTf402lQ","name":"Coldplay Mix","description":"<a href=spotify:playlist:37i9dQZF1EIUJHfM1S1CEu>Keane</a>, <a href=spotify:playlist:37i9dQZF1EIWgyOG2kVVJa>Snow Patrol</a> and <a href=spotify:playlist:37i9dQZF1EIYIx1RKPjEUi>Vance Joy</a>"},{"id":"0dOFnOecK3F21mDa9y1A1d","name":"best of coId pIay","description":""},{"id":"37i9dQZF1E8Phxb51oLqM5","name":"Broken Clocks Radio","description":"With SZA, Daniel Caesar, Frank Ocean and more"},{"id":"08xbLKPX6hILf7tDiWWSkt","name":"Coldplay Hits","description":""},{"id":"03ixBttfOIdBZaH0ukoGcy","name":"Clocks Remix (Coldplay)","description":""},{"id":"20YvXd3EjvH93p4iQ9epXg","name":"Clocks - Royksopp Trembling Heart Mix – Coldplay","description":""},{"id":"2f6ygYYDHe9ouMy1j6AoXq","name":"Coldplay Piano Covers","description":"Popular acoustic piano covers of iconic British band Coldplay featuring Fix You, The Scientist, Clocks, Viva La Vida, Yellow and the new song My Universe."},{"id":"7Dg46Ioz3E2VVe0U8xnSIz","name":"Morning Wake Up - Start Your Day Positively - Music for Breakfast - Coffee For Your Head","description":"Start your day at best with our wake up playlist! No need for alarm clocks, these songs are guaranteed to make you dance  while enjoying your breakfast 🥣 - Playlist Cover: Royalty Free Stock Photo"}]}
+  "query": "clocks",
+  "topResults": [
+    { "type": "track", "id": "0BCPKOYdS2jbQ8iyB56Zns", "name": "Clocks" },
+    { "type": "track", "id": "2Ygs64z9ywJGakuKU8tr6o", "name": "Clocks" },
+    {
+      "type": "track",
+      "id": "2fXwCWkh6YG5zU1IyvQrbs",
+      "name": "Broken Clocks"
+    },
+    { "type": "artist", "id": "4gzpq5DPGxSnKTe4SA8HAU", "name": "Coldplay" },
+    {
+      "type": "playlist",
+      "id": "5mJH8neZYWznKYAXSgCJou",
+      "name": "Songs like Clocks"
+    }
+  ],
+  "artists": [
+    { "id": "4gzpq5DPGxSnKTe4SA8HAU", "name": "Coldplay" },
+    { "id": "7lRJ2rMkCq6TBl85frZAmf", "name": "Clocks & Clouds" },
+    { "id": "4CHiVarfTsFhkFOk5vHS77", "name": "Marc Scibilia" },
+    { "id": "4NSzuIc0eGOftqr0tEOhJk", "name": "ClockClock" },
+    { "id": "2DaxqgrOhkeH0fpeiQq2f4", "name": "Oasis" },
+    { "id": "3LLyROFg3quU6jDUPQEMkB", "name": "Clocks" },
+    { "id": "50NkUdzTHP7CXZRe6n74vN", "name": "Turning Back The Clocks" },
+    { "id": "6zlR5ttMfMNmwf2lecU9Cc", "name": "Sam Fender" },
+    { "id": "2smETssbGNHJxOglxIFXTy", "name": "CLOCKS" },
+    { "id": "6Jg3DFzPWX2VIy01oqLGkz", "name": "The Clockworks" }
+  ],
+  "albums": [
+    {
+      "id": "1hnFNY7vQA0VipdplCdhPJ",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2003"
+    },
+    {
+      "id": "0YERsGGS6X66rj6UWwvt2K",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2024"
+    },
+    {
+      "id": "4Ab6AbH0LZfoAvxriIYVsF",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2003"
+    },
+    {
+      "id": "5UsNWaI9pr6pX0PeI39sAH",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2024"
+    },
+    {
+      "id": "6ZG5lRT77aJ3btmArcykra",
+      "name": "Parachutes",
+      "type": "album",
+      "releaseDate": "2000"
+    },
+    {
+      "id": "2T9UHc2fOh1qT6hGTz6FrU",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2023"
+    },
+    {
+      "id": "5Fjjc5WlSbOG2CexhI8Lh5",
+      "name": "The Clock's Secret",
+      "type": "album",
+      "releaseDate": "2024"
+    },
+    {
+      "id": "174yu4qXSvcrJlmYPI5Ds8",
+      "name": "Clocks (Ambient)",
+      "type": "single",
+      "releaseDate": "2023"
+    },
+    {
+      "id": "6Z5qampvku5E0MKX3cuGAC",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2023"
+    },
+    {
+      "id": "1jN9En1vMRpb5uTO5ma4Mc",
+      "name": "Clocks",
+      "type": "single",
+      "releaseDate": "2003"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "0BCPKOYdS2jbQ8iyB56Zns",
+      "name": "Clocks",
+      "streamCount": 0,
+      "duration": 307879,
+      "contentRating": "none"
+    },
+    {
+      "id": "2Ygs64z9ywJGakuKU8tr6o",
+      "name": "Clocks",
+      "streamCount": 0,
+      "duration": 307879,
+      "contentRating": "none"
+    },
+    {
+      "id": "2fXwCWkh6YG5zU1IyvQrbs",
+      "name": "Broken Clocks",
+      "streamCount": 0,
+      "duration": 231253,
+      "contentRating": "explicit"
+    },
+    {
+      "id": "75JFxkI2RXiU7L9VXzMkle",
+      "name": "The Scientist",
+      "streamCount": 0,
+      "duration": 309600,
+      "contentRating": "none"
+    },
+    {
+      "id": "7nqeKUkuQb3pIiNUas2FEV",
+      "name": "Clocks",
+      "streamCount": 0,
+      "duration": 230400,
+      "contentRating": "none"
+    },
+    {
+      "id": "74eOGQcLbrS7dDrn88Ctkl",
+      "name": "Clocks",
+      "streamCount": 0,
+      "duration": 308013,
+      "contentRating": "none"
+    },
+    {
+      "id": "2bVMZxVFHsK2DvYNQQzosE",
+      "name": "Clocks",
+      "streamCount": 0,
+      "duration": 164883,
+      "contentRating": "none"
+    },
+    {
+      "id": "3VSJgJ39ruE6LtV7o1s9wJ",
+      "name": "Clocks - Ambient",
+      "streamCount": 0,
+      "duration": 88572,
+      "contentRating": "none"
+    },
+    {
+      "id": "4zOfy9kqJlG0ZXvcaSh4gv",
+      "name": "Viva La Vida",
+      "streamCount": 0,
+      "duration": 242373,
+      "contentRating": "none"
+    },
+    {
+      "id": "53yNzLIyBjGt7DCZLKi8Ay",
+      "name": "Clocks - Radio Edit",
+      "streamCount": 0,
+      "duration": 252600,
+      "contentRating": "none"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "5mJH8neZYWznKYAXSgCJou",
+      "name": "Songs like Clocks",
+      "description": ""
+    },
+    {
+      "id": "37i9dQZF1E8P4hPkT1lIEV",
+      "name": "Clocks Radio",
+      "description": "With Coldplay, Keane, Maroon 5 and more"
+    },
+    {
+      "id": "37i9dQZF1EIWI4rTf402lQ",
+      "name": "Coldplay Mix",
+      "description": "<a href=spotify:playlist:37i9dQZF1EIUJHfM1S1CEu>Keane</a>, <a href=spotify:playlist:37i9dQZF1EIWgyOG2kVVJa>Snow Patrol</a> and <a href=spotify:playlist:37i9dQZF1EIYIx1RKPjEUi>Vance Joy</a>"
+    },
+    {
+      "id": "0dOFnOecK3F21mDa9y1A1d",
+      "name": "best of coId pIay",
+      "description": ""
+    },
+    {
+      "id": "37i9dQZF1E8Phxb51oLqM5",
+      "name": "Broken Clocks Radio",
+      "description": "With SZA, Daniel Caesar, Frank Ocean and more"
+    },
+    {
+      "id": "08xbLKPX6hILf7tDiWWSkt",
+      "name": "Coldplay Hits",
+      "description": ""
+    },
+    {
+      "id": "03ixBttfOIdBZaH0ukoGcy",
+      "name": "Clocks Remix (Coldplay)",
+      "description": ""
+    },
+    {
+      "id": "20YvXd3EjvH93p4iQ9epXg",
+      "name": "Clocks - Royksopp Trembling Heart Mix – Coldplay",
+      "description": ""
+    },
+    {
+      "id": "2f6ygYYDHe9ouMy1j6AoXq",
+      "name": "Coldplay Piano Covers",
+      "description": "Popular acoustic piano covers of iconic British band Coldplay featuring Fix You, The Scientist, Clocks, Viva La Vida, Yellow and the new song My Universe."
+    },
+    {
+      "id": "7Dg46Ioz3E2VVe0U8xnSIz",
+      "name": "Morning Wake Up - Start Your Day Positively - Music for Breakfast - Coffee For Your Head",
+      "description": "Start your day at best with our wake up playlist! No need for alarm clocks, these songs are guaranteed to make you dance  while enjoying your breakfast 🥣 - Playlist Cover: Royalty Free Stock Photo"
+    }
+  ]
+}

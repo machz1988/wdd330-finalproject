@@ -115,11 +115,22 @@ button {
 }
 
 @keyframes favorites-animation {
-  30% { transform: scale(1.2); }
-  40%, 60% { transform: rotate(-20deg) scale(1.2); }
-  50% { transform: rotate(20deg) scale(1.2); }
-  70% { transform: rotate(0deg) scale(1.2); }
-  100% { transform: scale(1); }
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* End Favorite List icon styles */
@@ -174,14 +185,18 @@ button {
 
 /* End product list card */
 
-.product-detail {
-  padding: 1em;
+/* Album detail page styles */
+
+.ad-section {
+  display: flex;
+  flex-direction: column;
   max-width: 500px;
   margin: auto;
 }
 
-.product-detail img {
-  width: 100%;
+.ad-img {
+  margin: auto;
+  max-height: 500px;
 }
 
 /* Start cart list card styles */

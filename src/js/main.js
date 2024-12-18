@@ -1,21 +1,17 @@
-import { qs } from './utils.mjs';
-import ExternalServices from './ExternalServices.mjs';
-import SongList from './SongList.mjs';
-
-
-//const data = getLocalStorage("temporal-data");
-//console.log(data.tracks);
+import { qs } from "./utils.mjs";
+import ExternalServices from "./ExternalServices.mjs";
+import SongList from "./SongList.mjs";
 
 // Elements
-const searchForm = qs('#search-form');
-const searchInput = qs('#search-input');
+const searchForm = qs("#search-form");
+const searchInput = qs("#search-input");
 
-searchForm.addEventListener('submit', async (event) => {
+searchForm.addEventListener("submit", async (event) => {
   event.preventDefault(); // Prevent default form submission behavior
 
   const searchQuery = searchInput.value.trim(); // Get search keyword
   if (!searchQuery) {
-    alert('Please enter a song name to search.');
+    alert("Please enter a song name to search.");
     return;
   }
 
@@ -23,12 +19,12 @@ searchForm.addEventListener('submit', async (event) => {
     // Fetch search results from the API
     const externalServices = new ExternalServices();
     const searchResults = await externalServices.getData(searchQuery);
-    const songListContainer = qs('.song-list');
+    const songListContainer = qs(".song-list");
     if (searchResults.length === 0) {
-      songListContainer.innerHTML = '<p>No songs found. Please try again!</p>';
+      songListContainer.innerHTML = "<p>No songs found. Please try again!</p>";
       return;
     }
-    songListContainer.innerHTML = '';
+    songListContainer.innerHTML = "";
     // Render search results on the product list page
     const list = new SongList(
       externalServices,

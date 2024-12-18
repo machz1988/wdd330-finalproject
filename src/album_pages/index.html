@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Song Searcher | Home</title>
+    <title>Song Searcher | Album Details</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <script src="js/main.js" type="module"></script>
+    <script src="../js/album.js" type="module"></script>
   </head>
   <body>
     <header class="divider">
@@ -40,17 +40,22 @@
       </div>
     </header>
     <main class="divider">
-      <form id="search-form" class="search-box">
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Search for a song..."
-        />
-        <button type="submit">Search</button>
-      </form>
-      <section class="songs">
-        <h2>Results</h2>
-        <ul class="song-list"></ul>
+      <section class="ad-section">
+        <h2 class="ad-name divider"></h2>
+        <picture>
+          <source class="ad-sourcelarge" media="(min-width: 640px)" srcset="" />
+          <source
+            class="ad-sourcemedium"
+            media="(min-width: 300px)"
+            srcset=""
+          />
+          <img class="ad-img" src="" alt="" />
+        </picture>
+        <h3 class="ad-releasedate"></h3>
+        <h3>Artists</h3>
+        <ul class="ad-artists"></ul>
+        <h3>Tracks</h3>
+        <ul class="ad-tracks"></ul>
       </section>
     </main>
     <footer>&copy;NOT a real business</footer>
