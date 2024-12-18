@@ -35,7 +35,7 @@ export default class AlbumDetails {
     sourceMedium.setAttribute('srcset', this.album.coverArt[0].url);
     img.setAttribute('src', this.album.coverArt[1].url);
     img.setAttribute('alt', this.album.name);
-    releaseDate.textContent = this.album.releaseDate;
+    releaseDate.textContent = `ReleaseDate: ${this.album.releaseDate}`;
     const artistList = this.album.artists.map((elem) => {
         return `<li>${elem.name}</li>`;
     });
