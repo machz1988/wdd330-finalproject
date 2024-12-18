@@ -1,0 +1,181 @@
+{
+  "id": "0RHX9XECH8IVI3LNgWDpmQ",
+  "name": "A Rush of Blood to the Head",
+  "type": "album",
+  "releaseDate": "2002-08-27",
+  "artists": [
+    {
+      "id": "4gzpq5DPGxSnKTe4SA8HAU",
+      "name": "Coldplay"
+    }
+  ],
+  "label": "Parlophone Records Limited",
+  "copyright": [
+    {
+      "type": "C",
+      "text": "© 2002 Parlophone Records Ltd, a Warner Music Group Company"
+    },
+    {
+      "type": "P",
+      "text": "℗ 2002 Parlophone Records Ltd, a Warner Music Group Company"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "0u35Dpz37TY2M2j20RUdMf",
+      "name": "Politik",
+      "streamCount": 99182303,
+      "duration": 318626,
+      "contentRating": "none"
+    },
+    {
+      "id": "2nvC4i2aMo4CzRjRflysah",
+      "name": "In My Place",
+      "streamCount": 381410490,
+      "duration": 226680,
+      "contentRating": "none"
+    },
+    {
+      "id": "4hf0hL4kWyjWztZzVsM39V",
+      "name": "God Put a Smile upon Your Face",
+      "streamCount": 122797686,
+      "duration": 297306,
+      "contentRating": "none"
+    },
+    {
+      "id": "75JFxkI2RXiU7L9VXzMkle",
+      "name": "The Scientist",
+      "streamCount": 2123981871,
+      "duration": 309600,
+      "contentRating": "none"
+    },
+    {
+      "id": "0BCPKOYdS2jbQ8iyB56Zns",
+      "name": "Clocks",
+      "streamCount": 1042073157,
+      "duration": 307879,
+      "contentRating": "none"
+    },
+    {
+      "id": "4fP4xTSBli3tKck172LEZ4",
+      "name": "Daylight",
+      "streamCount": 35812148,
+      "duration": 327800,
+      "contentRating": "none"
+    },
+    {
+      "id": "3ou9rSNUQnE7XYmJkUUIOc",
+      "name": "Green Eyes",
+      "streamCount": 142771802,
+      "duration": 223040,
+      "contentRating": "none"
+    },
+    {
+      "id": "4bPkBHKLKd9WHizsvM2zV3",
+      "name": "Warning Sign",
+      "streamCount": 96864350,
+      "duration": 331133,
+      "contentRating": "none"
+    },
+    {
+      "id": "7KolrFGhfDi1JTSgQBT5sI",
+      "name": "A Whisper",
+      "streamCount": 55365403,
+      "duration": 238333,
+      "contentRating": "none"
+    },
+    {
+      "id": "4JJ5zGKnb1IpERyBrfmb1y",
+      "name": "A Rush of Blood to the Head",
+      "streamCount": 60450370,
+      "duration": 351400,
+      "contentRating": "none"
+    },
+    {
+      "id": "2uQ4px5SPONsgcUpulywIQ",
+      "name": "Amsterdam",
+      "streamCount": 49908172,
+      "duration": 319360,
+      "contentRating": "none"
+    }
+  ],
+  "coverArt": [
+    {
+      "url": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82",
+      "height": 300,
+      "width": 300
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d00004851de09e02aa7febf30b7c02d82",
+      "height": 64,
+      "width": 64
+    },
+    {
+      "url": "https://i.scdn.co/image/ab67616d0000b273de09e02aa7febf30b7c02d82",
+      "height": 640,
+      "width": 640
+    }
+  ],
+  "moreAlbums": [
+    {
+      "id": "6ZG5lRT77aJ3btmArcykra",
+      "name": "Parachutes",
+      "type": "album",
+      "releaseDate": "2000"
+    },
+    {
+      "id": "0RHX9XECH8IVI3LNgWDpmQ",
+      "name": "A Rush of Blood to the Head",
+      "type": "album",
+      "releaseDate": "2002"
+    },
+    {
+      "id": "3cfAM8b8KqJRoIzt3zLKqw",
+      "name": "A Head Full of Dreams",
+      "type": "album",
+      "releaseDate": "2015"
+    },
+    {
+      "id": "2G4AUqfwxcV1UdQjm2ouYr",
+      "name": "Ghost Stories",
+      "type": "album",
+      "releaseDate": "2014"
+    },
+    {
+      "id": "1CEODgTmTwLyabvwd7HBty",
+      "name": "Viva La Vida or Death and All His Friends",
+      "type": "album",
+      "releaseDate": "2008"
+    },
+    {
+      "id": "4E7bV0pzG0LciBSWTszra6",
+      "name": "X&Y",
+      "type": "album",
+      "releaseDate": "2005"
+    },
+    {
+      "id": "2R7iJz5uaHjLEVnMkloO18",
+      "name": "Mylo Xyloto",
+      "type": "album",
+      "releaseDate": "2011"
+    },
+    {
+      "id": "5SGtrmYbIo0Dsg4kJ4qjM6",
+      "name": "Moon Music",
+      "type": "album",
+      "releaseDate": "2024"
+    },
+    {
+      "id": "1PdMoahMiMnqWfzWZs3xSI",
+      "name": "Moon Music (Full Moon Edition)",
+      "type": "album",
+      "releaseDate": "2024"
+    },
+    {
+      "id": "06mXfvDsRZNfnsGZvX2zpb",
+      "name": "Music Of The Spheres",
+      "type": "album",
+      "releaseDate": "2021"
+    }
+  ]
+}
