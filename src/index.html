@@ -6,12 +6,15 @@
     <title>Song Searcher | Home</title>
     <link rel="stylesheet" href="/css/style.css" />
     <script src="js/main.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nerko+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="divider">
       <div class="logo">
         <img src="./images/music-note-icon.svg" alt="song image for logo" />
-        <a href="index.html"> Song <span class="highlight">Searcher</span></a>
+        <a href="index.html"> Song <span class="highlight"> Searcher</span></a>
       </div>
       <div id="favorites-icon"></div>
     </header>
@@ -22,6 +25,7 @@
           id="search-input"
           placeholder="Search for a song..."
           required
+          autofocus 
         />
         <button type="submit">Search</button>
       </form>

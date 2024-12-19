@@ -1,10 +1,12 @@
 :root {
-  --font-body: Arial, Helvetica, sans-serif;
-  --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-body: "Josefin Sans", serif;
+  --font-headline: "Nerko One", serif;
   /* colors */
-  --primary-color: #f0a868;
-  --secondary-color: #525b0f;
-  --tertiary-color: #a4b8c4;
+  --primary-color: #1C1F33;
+  --secondary-color: #3891A6;
+  --tertiary-color: #D72638;
+  --accent-color1: #689689;
+  --accent-color2: #FF8906;
   --light-grey: #d0d0d0;
   --dark-grey: #303030;
 
@@ -20,7 +22,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   font-size: var(--font-base);
-  color: var(--dark-grey);
+  color: var(--primary-color);
 }
 img {
   max-width: 100%;
@@ -32,20 +34,23 @@ header {
 }
 .logo {
   line-height: 60px;
-  width: 245px;
+  width: 300px;
   overflow: hidden;
   display: flex;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
   font-family: var(--font-headline);
+  font-weight: bold;
 }
 .logo img {
   width: 60px;
   height: 60px;
 }
 .logo a {
+  display: flex;
   text-decoration: none;
-  color: var(--font-body);
+  padding-left: 0.3em;
+  color: var(--tertiary-color);
 }
 .hero {
   position: relative;
@@ -78,21 +83,29 @@ header {
 }
 /* utility classes */
 .highlight {
-  color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 
 button {
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   background-color: var(--secondary-color);
   color: white;
   margin: auto;
   display: block;
   border: 0;
-  font-size: var(--large-font);
+  border-radius: 1em;
+  font-family: var(--font-body);
+  font-size: var(--font-base);
   cursor: pointer;
 }
+
+button:hover {
+  background-color: var(--accent-color2);
+  color: var(--primary-color);
+}
+
 .divider {
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--tertiary-color);
 }
 /* End utility classes */
 
@@ -105,9 +118,10 @@ button {
 
 .favorite-list svg {
   width: 40px;
+  fill: var(--primary-color);
 }
 .favorite-list:hover svg {
-  fill: gray;
+  fill: var(--accent-color1);
 }
 
 .favorites-animation {
@@ -141,8 +155,8 @@ button {
   font-size: var(--small-font);
   font-weight: bold;
 
-  background-color: var(--primary-color);
-  color: var(--font-base);
+  background-color: var(--tertiary-color);
+  color: white;
 
   padding: 0.0425rem 0.125rem;
   border-radius: 0.5rem;
@@ -154,13 +168,21 @@ button {
 
 /* End Favorite List icon styles */
 
-.mission {
-  padding: 0 0.5em;
-  /* margin: 0.5em 0; */
-  line-height: 1.3;
-  max-width: 600px;
-  margin: auto;
+#search-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
 }
+
+#search-input {
+  padding: 0.5em 1em;
+  margin: 1em 1em;
+  border-radius: 0.5em;
+  font-family: var(--font-body);
+  font-size: var(--large-font);
+  background-color: white;
+}
+
 .songs {
   padding: 0.5em;
 }
@@ -180,7 +202,8 @@ button {
   flex: 1 1 45%;
   margin: 0.25em;
   padding: 0.5em;
-  border: 1px solid var(--light-grey);
+  border: 1px solid var(--accent-color1);
+  border-radius: 1em;
   max-width: 250px;
 }
 .song-card h2,
