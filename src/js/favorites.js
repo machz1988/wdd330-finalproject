@@ -1,6 +1,7 @@
 import { qs } from "./utils.mjs";
-//import { setCounter } from "./cart-counter.mjs";
 import FavoriteList from "./FavoriteList.mjs";
+import { renderFavoritesIcon } from "./favoritesIcon.mjs";
+renderFavoritesIcon("favorite-list");
 
 //loadHeaderFooter(setCounter);
 const listContainer = qs(".song-list");

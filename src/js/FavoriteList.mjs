@@ -2,8 +2,10 @@ import {
     getLocalStorage,
     setLocalStorage,
     renderListWithTemplate,
+    qs,
     qsAll,
 } from "./utils.mjs";
+import { renderFavoritesIcon } from "./favoritesIcon.mjs";
 
 function songCardTemplate(song, i) {
     const artistList = song.artists.map((elem) => {
@@ -21,7 +23,7 @@ function songCardTemplate(song, i) {
                 <h3 class="card__artists">Artists:</h3>
                 <ul class="card__artists">${artistList.join('')}</ul>
             </a>
-            <button class="removefrom-list" data-id="${i}">Remove From Favorites</button>
+            <button class="removefrom-list" data-id="${i}">Remove</button>
         </li>`;
     return templateLiteral;
 }
@@ -42,8 +44,8 @@ export default class ShoppingCart {
                 (_, i) => i !== parseInt(e.currentTarget.dataset.id),
             );
             setLocalStorage(this.key, filteredItems);
+            renderFavoritesIcon(this.key, true);      
             this.init();
-            //setCounter();
         });
       });  
     }
