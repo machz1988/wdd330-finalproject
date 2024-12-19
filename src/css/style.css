@@ -104,7 +104,7 @@ button {
 }
 
 .favorite-list svg {
-  width: 25px;
+  width: 40px;
 }
 .favorite-list:hover svg {
   fill: gray;
@@ -131,6 +131,25 @@ button {
   100% {
     transform: scale(1);
   }
+}
+
+#counter {
+  position: absolute;
+  top: 20%;
+  right: 0;
+
+  font-size: var(--small-font);
+  font-weight: bold;
+
+  background-color: var(--primary-color);
+  color: var(--font-base);
+
+  padding: 0.0425rem 0.125rem;
+  border-radius: 0.5rem;
+}
+
+.hide {
+  display: none;
 }
 
 /* End Favorite List icon styles */

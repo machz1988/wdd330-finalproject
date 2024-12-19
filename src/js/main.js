@@ -1,6 +1,8 @@
 import { qs } from "./utils.mjs";
 import ExternalServices from "./ExternalServices.mjs";
 import SongList from "./SongList.mjs";
+import { renderFavoritesIcon } from "./favoritesIcon.mjs";
+renderFavoritesIcon("favorite-list");
 
 // Elements
 const searchForm = qs("#search-form");

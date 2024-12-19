@@ -2,8 +2,10 @@ import {
     getLocalStorage,
     setLocalStorage,
     renderListWithTemplate,
+    qs,
     qsAll,
 } from "./utils.mjs";
+import { renderFavoritesIcon } from "./favoritesIcon.mjs";
 
 function songCardTemplate(song, i) {
     const artistList = song.artists.map((elem) => {
@@ -42,8 +44,8 @@ export default class ShoppingCart {
                 (_, i) => i !== parseInt(e.currentTarget.dataset.id),
             );
             setLocalStorage(this.key, filteredItems);
+            renderFavoritesIcon(this.key, true);      
             this.init();
-            //setCounter();
         });
       });  
     }

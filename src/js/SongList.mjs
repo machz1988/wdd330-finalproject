@@ -1,7 +1,8 @@
 import {
     qs, qsAll, getLocalStorage, setLocalStorage, renderListWithTemplate
   } from "./utils.mjs";
-    
+import { renderFavoritesIcon } from "./favoritesIcon.mjs";
+
 function songCardTemplate(song) {
     const artistList = song.artists.map((elem) => {
         return `<li>${elem.name}</li>`;
@@ -35,24 +36,24 @@ function addToFavorites(e){
         }
     });
 
-    const favoritesIcon = qs('.favorite-list');
-    if (favoritesIcon.classList.contains('favorites-animation')) {
-        favoritesIcon.classList.remove('favorites-animation');
-    }
-    favoritesIcon.classList.add('favorites-animation');
     //favoritesIcon.classList.remove('favorites-animation');
 
     if (!found) {
+        let checkDuplicate = false;
         this.songList.map((elem) => {
             if (elem.id === id){
-                favoriteList.push(elem);
+                if(!checkDuplicate){
+                    favoriteList.push(elem);
+                    checkDuplicate = true;
+                } 
             }
         });
+    
+        // Set localStorage with modified array.
+        setLocalStorage("favorite-list", favoriteList);
+        renderFavoritesIcon("favorite-list", true);  
     }
-    // Set localStorage with modified array.
-    setLocalStorage("favorite-list", favoriteList);
-    // MISSING IMPLEMENT ALERT AND SETCOUNTER 
-    //setCounter();
+    // MISSING IMPLEMENT ALERT  
     //alertMessage("Product added to cart!");
 }
 
