@@ -24,7 +24,7 @@ export default class ExternalServices {
         }
     };
     try {
-        const res = await fetch(searchUrl + query, options);
+        const res = await fetch(searchUrl + "?q=" + query, options);
         const data = await convertToJson(res);
         return data;
     } catch (error) {
