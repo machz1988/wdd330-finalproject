@@ -28,7 +28,7 @@ function songCardTemplate(song, i) {
     return templateLiteral;
 }
 
-export default class ShoppingCart {
+export default class FavoriteList {
     constructor(key, parentSelector) {
       this.key = key;
       this.parentSelector = parentSelector;
