@@ -1,4 +1,6 @@
 import { getLocalStorage, setLocalStorage, qs } from "./utils.mjs";
+import SongList from "./SongList.mjs";
+import ExternalServices from "./ExternalServices.mjs";
 //import { setCounter } from "./cart-counter.mjs";
 //import { alertMessage } from "./Alerts.mjs";
 
@@ -14,10 +16,11 @@ export default class AlbumDetails {
 
     if (!isModal) {
       this.renderAlbumDetails();
-      //qs("#pd-addToCart").addEventListener("click", this.addToCart.bind(this));
+      qs("#song-details").addEventListener("click", this.renderSongList.bind(this));
     }/* else {
       this.renderModal();
     }*/
+    
   }
 
   renderAlbumDetails() {
@@ -45,5 +48,23 @@ export default class AlbumDetails {
     });
     tracks.innerHTML = trackList.join('');
     //addButton.setAttribute("data-id", this.product.Id);
+  }
+
+  renderSongList(){
+    const songListContainer = qs(".song-list");      
+    const labelSongList = qs("#show-trackdetails");
+    try {
+      songListContainer.innerHTML = "";
+      labelSongList.classList.remove("hide");
+      // Render song list in the album page
+      const list = new SongList(
+        new ExternalServices(),
+        this.album,
+        songListContainer,
+      );
+      list.init();
+    } catch (error) {
+      alert("Failed to fetch search results. Please try again.");
+    }
   }
 }

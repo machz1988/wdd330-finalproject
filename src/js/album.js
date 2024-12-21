@@ -1,6 +1,7 @@
 import { getParams } from "./utils.mjs";
 import ExternalServices from "./ExternalServices.mjs";
 import AlbumDetails from "./AlbumDetails.mjs";
+
 import { renderFavoritesIcon } from "./favoritesIcon.mjs";
 renderFavoritesIcon("favorite-list");
 
