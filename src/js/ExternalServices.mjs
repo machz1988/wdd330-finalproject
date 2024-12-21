@@ -16,11 +16,6 @@ async function convertToJson(res) {
 
 export default class ExternalServices {
   async getData(query) {
-    const path = '../json/query.json';
-    const res = await fetch(path);
-    const data = await convertToJson(res);
-    return data;
-    /*
     const options = {
         method: 'GET',
         headers: {
@@ -35,15 +30,9 @@ export default class ExternalServices {
     } catch (error) {
         console.error(error);
     }
-    */
   }
 
   async getTrackById(id) {
-    const path = '../json/song.json';
-    const res = await fetch(path);
-    const data = await convertToJson(res);
-    return data;
-    /*
     const options = {
         method: 'GET',
         headers: {
@@ -59,7 +48,6 @@ export default class ExternalServices {
     } catch (error) {
         console.error(error);
     }
-    */
   }
 
   async getAlbumById(id) {
@@ -67,7 +55,6 @@ export default class ExternalServices {
     const res = await fetch(path);
     const data = await convertToJson(res);
     return data;
-    /*
     const options = {
         method: 'GET',
         headers: {
@@ -83,7 +70,6 @@ export default class ExternalServices {
     } catch (error) {
         console.error(error);
     }
-    */
   }
 
   async getArtistById(id) {
