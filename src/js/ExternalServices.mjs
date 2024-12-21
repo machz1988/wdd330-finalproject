@@ -51,10 +51,6 @@ export default class ExternalServices {
   }
 
   async getAlbumById(id) {
-    const path = '../json/album.json';
-    const res = await fetch(path);
-    const data = await convertToJson(res);
-    return data;
     const options = {
         method: 'GET',
         headers: {
