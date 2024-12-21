@@ -1,6 +1,6 @@
 # Song Searcher Project
 
-Production iste: https://songsearcher2024.netlify.app/
+Production site: https://songsearcher2024.netlify.app/
 
 ## Description
 
